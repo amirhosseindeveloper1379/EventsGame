@@ -20,4 +20,9 @@ public class Menu : MonoBehaviour
     {
         Application.LoadLevel(scene);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
